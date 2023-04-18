@@ -13,48 +13,48 @@
         android:layout_height="wrap_content"
         android:text="SAÚDE"
         android:textColor="#22A794"
-        android:textSize="48sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.244" />
+        app:layout_constraintVertical_bias="0.245" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="254dp"
-        android:layout_height="152dp"
+        android:layout_width="233dp"
+        android:layout_height="143dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.077"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/principal" />
 
     <EditText
         android:id="@+id/idname"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="288dp"
+        android:layout_height="60dp"
         android:ems="10"
         android:hint="Name"
         android:inputType="textPersonName"
-        android:textSize="24sp"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textViewTitulo"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="@+id/textViewTitulo"
         app:layout_constraintTop_toBottomOf="@+id/textViewTitulo"
-        app:layout_constraintVertical_bias="0.117" />
+        app:layout_constraintVertical_bias="0.071" />
 
     <EditText
         android:id="@+id/passoword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="286dp"
+        android:layout_height="67dp"
         android:ems="10"
         android:hint="Passoword"
         android:inputType="textPassword"
-        android:textSize="24sp"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/idname"
         app:layout_constraintHorizontal_bias="0.0"
@@ -68,38 +68,39 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#22A794"
         android:text="Login"
-        android:textSize="20sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/passoword"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/passoword"
         app:layout_constraintTop_toBottomOf="@+id/passoword"
-        app:layout_constraintVertical_bias="0.42" />
+        app:layout_constraintVertical_bias="0.355" />
 
     <CheckBox
         android:id="@+id/checkBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="133dp"
+        android:layout_height="76dp"
         android:text="CheckBox"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/passoword"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/passoword"
         app:layout_constraintTop_toBottomOf="@+id/passoword"
-        app:layout_constraintVertical_bias="0.098" />
+        app:layout_constraintVertical_bias="0.345" />
 
     <Button
         android:id="@+id/idcadastro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="164dp"
+        android:layout_height="40dp"
         android:layout_marginBottom="56dp"
         android:text="Cadastre-se"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/idButton"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.276"
         app:layout_constraintStart_toStartOf="@+id/idButton"
         app:layout_constraintTop_toBottomOf="@+id/idButton"
-        app:layout_constraintVertical_bias="0.409" />
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
